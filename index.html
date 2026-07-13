@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alishba Saeed — Computer Science student specializing in backend development, databases, and cloud infrastructure." />
+  <title>Alishba Saeed | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+
+  <nav class="nav" id="nav">
+    <a href="#" class="nav-logo">Alishba <span>Saeed</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#volunteer">Volunteer</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Alishba Saeed</h1>
+        <p class="hero-title">Computer Science Student</p>
+        <p class="hero-location">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+          </svg>
+          Islamabad, Pakistan
+        </p>
+        <p class="hero-summary">
+          Third-year CS student passionate about backend development, database optimization,
+          and cloud infrastructure. Building full-stack applications and RESTful APIs.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="Alishba_Saeed.pdf" target="_blank" class="btn btn-outline">View Resume</a>
+
+          <a href="https://linkedin.com/in/alishbasaeed" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 4.126 0 2.063 2.063 0 0 1-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+            </svg>
+            LinkedIn
+          </a>
+
+          <a href="https://github.com/alishbasaeed578" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.234c-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22v3.293c0 .319.22.694.825.576C20.565 21.795 24 17.3 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-header">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-yellow"></span>
+            <span class="dot dot-green"></span>
+          </div>
+          <pre class="hero-code"><code><span class="code-keyword">class</span> <span class="code-class">Developer</span> {
+  <span class="code-property">name</span> = <span class="code-string">"Alishba Saeed"</span>;
+  <span class="code-property">role</span> = <span class="code-string">"CS Student"</span>;
+  <span class="code-property">focus</span> = [
+    <span class="code-string">"Backend"</span>,
+    <span class="code-string">"Databases"</span>,
+    <span class="code-string">"Cloud"</span>
+  ];
+  <span class="code-property">semester</span> = <span class="code-number">6</span>;
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">About Me</span>
+          <h2>Building solutions that scale</h2>
+        </div>
+        <div class="about-grid">
+          <p class="about-text">
+            Third-year Computer Science student with hands-on experience in Python, Java, and SQL,
+            specializing in backend development, database optimization, and cloud infrastructure
+            (AWS RDS/EC2). Proven ability to design full-stack applications, build RESTful APIs,
+            and optimize relational database schemas.
+          </p>
+          <p class="about-text">
+            Passionate about technology and innovation, with strong collaboration and communication
+            skills developed through leading campus tech workshops as an MLSA Event Coordinator.
+            Eager to apply academic knowledge and programming expertise to real-world challenges.
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <span class="highlight-number">3+</span>
+            <span class="highlight-label">Major Projects</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number">6</span>
+            <span class="highlight-label">Semesters Completed</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number">25+</span>
+            <span class="highlight-label">Technologies</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Education</span>
+          <h2>Academic Background</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 — 2027</span>
+              <h3>Bachelor of Science in Computer Science</h3>
+              <p class="timeline-org">Shaheed Zulfikar Ali Bhutto Institute of Science & Technology (SZABIST)</p>
+              <ul class="timeline-details">
+                <li>Data Structures & Algorithms</li>
+                <li>Database Systems</li>
+                <li>Operating Systems</li>
+                <li>Web Development</li>
+                <li>Software Engineering</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Skills</span>
+          <h2>Technical Expertise</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <div class="skill-tags">
+              <span>C++</span><span>HTML</span><span>CSS</span><span>Java</span>
+              <span>JavaScript</span><span>Python</span><span>SQL</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Frameworks & Libraries</h3>
+            <div class="skill-tags">
+              <span>Spring Boot</span><span>Hibernate</span><span>React</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Databases</h3>
+            <div class="skill-tags">
+              <span>PostgreSQL</span><span>MySQL</span><span>Schema Design</span>
+              <span>Query Optimization</span><span>Relational Databases</span>
+              <span>Data Modeling</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Cloud & Infrastructure</h3>
+            <div class="skill-tags">
+              <span>AWS</span><span>RDS</span><span>EC2</span>
+              <span>Cloud Deployment</span><span>Apache Tomcat</span>
+              <span>Linux</span><span>Server Configuration</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Development</h3>
+            <div class="skill-tags">
+              <span>Full-Stack Architecture</span><span>RESTful APIs</span>
+              <span>OOP</span><span>Data Structures</span><span>Algorithms</span>
+              <span>Multithreading</span><span>IPC</span><span>Neural Networks</span>
+              <span>AI/ML</span><span>User Authentication</span>
+              <span>Software Testing</span><span>Debugging</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Tools & Version Control</h3>
+            <div class="skill-tags">
+              <span>VS Code</span><span>DBeaver</span><span>Git</span>
+              <span>GitHub</span><span>Postman</span><span>Maven</span>
+              <span>IntelliJ IDEA</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Soft Skills</h3>
+            <div class="skill-tags">
+              <span>Adaptability</span><span>Quick Learning</span>
+              <span>Communication</span><span>Problem-Solving</span>
+              <span>Teamwork</span><span>Leadership</span>
+              <span>Time Management</span><span>Event Coordination</span>
+              <span>Stakeholder Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Projects</span>
+          <h2>Featured Work</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+              </svg>
+            </div>
+            <h3>Cloud-Based Expense Tracker</h3>
+            <p>Full-stack financial tracking web application with secure user authentication and dynamic reporting modules, enabling real-time expense categorization across multiple user accounts.</p>
+            <ul class="project-highlights">
+              <li>Deployed on AWS RDS with Apache Tomcat</li>
+              <li>Optimized PostgreSQL schema via DBeaver</li>
+              <li>99%+ uptime in production environment</li>
+            </ul>
+            <div class="project-tech">
+              <span>Java</span><span>JavaScript</span><span>PostgreSQL</span><span>AWS</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <h3>Disease Detection System</h3>
+            <p>AI/ML-powered disease detection system with symptom analysis algorithms enabling automated preliminary diagnostics across 10+ symptom categories.</p>
+            <ul class="project-highlights">
+              <li>Backend logic in Python</li>
+              <li>Optimized SQL queries for patient records</li>
+              <li>Supports 1,000+ simulated patient records</li>
+            </ul>
+            <div class="project-tech">
+              <span>Python</span><span>MySQL</span><span>AI/ML</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M15 20v2M2 15h2M2 9h2M20 15h2M20 9h2M9 2v2M9 20v2"/>
+              </svg>
+            </div>
+            <h3>Multi-Core Neural Network Simulation</h3>
+            <p>Multi-core neural network simulation with multithreading and IPC mechanisms, enabling parallel execution across CPU cores with reduced processing overhead.</p>
+            <ul class="project-highlights">
+              <li>Multithreading & IPC in C++</li>
+              <li>Backpropagation algorithms</li>
+              <li>Multi-layer learning support</li>
+            </ul>
+            <div class="project-tech">
+              <span>C++</span><span>Multithreading</span><span>Neural Networks</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Volunteer -->
+    <section class="section" id="volunteer">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Volunteer Work</span>
+          <h2>Community & Leadership</h2>
+        </div>
+        <div class="volunteer-card">
+          <div class="volunteer-badge">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <div class="volunteer-content">
+            <h3>Event Coordinator</h3>
+            <p class="volunteer-org">Microsoft Learn Student Ambassadors (MLSA)</p>
+            <p>Led teams to organize campus tech workshops, providing project support, overseeing business operations, collaborating with stakeholders, and managing time for hybrid events.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section-contact" id="contact">
+      <div class="container">
+        <div class="contact-content">
+          <span class="section-tag">Contact</span>
+          <h2>Let's connect</h2>
+          <p>Open to internships, collaborations, and opportunities in backend development and cloud engineering.</p>
+          <div class="contact-links">
+            <a href="mailto:alishbasaeed578@gmail.com" class="contact-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>
+              </svg>
+              alishbasaeed578@gmail.com
+            </a>
+            <a href="https://linkedin.com/in/alishbasaeed" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 4.126 0 2.063 2.063 0 0 1-2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+              </svg>
+              linkedin.com/in/alishbasaeed
+            </a>
+            <a href="https://github.com/alishbasaeed578" target="_blank" rel="noopener noreferrer" class="contact-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+              </svg>
+              github.com/alishbasaeed578
+            </a>
+            <a href="cv.html" target="_blank" class="contact-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+              Resume (PDF)
+            </a>
+            <a href="cv.txt" download class="contact-link">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Resume (ATS .txt)
+            </a>
+            <span class="contact-link contact-location">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              Islamabad, Pakistan
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2026 Alishba Saeed. Built with passion.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+ALISHBA SAEED
+Computer Science Student
+linkedin.com/in/alishbasaeed, Islamabad, Pakistan
+
+SUMMARY
+Third-year Computer Science student with hands-on experience in Python, Java, and SQL, specializing in backend development, database optimization, and cloud infrastructure (AWS RDS/EC2). Proven ability to design full-stack applications, build RESTful APIs, and optimize relational database schemas. Passionate about technology and innovation, with strong collaboration and communication skills developed through leading campus tech workshops as an MLSA Event Coordinator. Eager to apply academic knowledge and programming expertise to real-world challenges.
+
+EDUCATION
+Bachelor of Science in Computer Science
+Shaheed Zulfikar Ali Bhutto Institute of Science & Technology (SZABIST)
+2023-2027
+Relevant Coursework: Data Structures & Algorithms, Database Systems, Operating Systems, Web Development, and Software Engineering
+
+SKILLS
+Languages
+C++, HTML/CSS, Java, JavaScript, Python, SQL
+Databases & Tools
+PostgreSQL, MySQL, AWS, RDS, EC2, Apache Tomcat, Springboot, Hibernate, DBeaver, VS Code, Git, GitHub, Linux
+Development
+Full-Stack Architecture, RESTful APIs, OOP, Java, JavaScript, Python, React, Software Testing & Debugging
+Soft Skills
+Adaptability & Quick Learning, Communication, Problem-Solving, Teamwork & Collaboration, Time Management
+
+PROJECTS
+Cloud-Based Expense Tracker
+* Built a full-stack financial tracking web application by implementing secure user authentication and dynamic reporting modules using Java, JavaScript, and PostgreSQL, enabling real-time expense categorization and tracking across multiple user accounts.
+* Deployed cloud-hosted database infrastructure on AWS RDS by configuring Apache Tomcat for application deployment and optimizing a PostgreSQL schema via DBeaver, ensuring high data integrity and 99%+ uptime for the production environment
+
+Disease Detection System
+* Developed backend logic for an AI/ML-powered disease detection system by implementing symptom analysis algorithms in Python, enabling automated preliminary diagnostics across 10+ symptom categories
+* Engineered optimized SQL database queries for patient record management using MySQL, reducing data retrieval latency and supporting efficient logging of 1,000+ simulated patient records
+
+Multi-Core Neural Network Simulation
+* Built a multi-core neural network simulation by implementing backend multithreading and IPC mechanisms in C++, enabling parallel execution across multiple CPU cores and reducing runtime processing overhead
+* Implemented core computational data structures and backpropagation algorithms for neural network training, supporting multi-layer learning and achieving efficient gradient propagation across the simulation
+
+VOLUNTEER WORK
+Event Coordinator
+Microsoft Learn Student Ambassadors (MLSA)
+* Led teams to organize campus tech workshops, providing project support, overseeing business operations, collaborating with stakeholders, communicating effectively, and managing time-management for hybrid events.

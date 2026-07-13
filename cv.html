@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alishba Saeed - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.4;
+      color: #000000;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 0 0 10px 0;
+      font-size: 32px;
+      font-weight: bold;
+      color: #000000;
+    }
+    .subtitle {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+      font-weight: normal;
+    }
+    .contact-info {
+      margin: 0 0 15px 0;
+      font-size: 14px;
+    }
+    .header-line {
+      border: none;
+      border-top: 2px solid #000000;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: bold;
+      color: #000000;
+      margin-top: 25px;
+      margin-bottom: 5px;
+    }
+    .section-line {
+      border: none;
+      border-top: 1px solid #d3d3d3;
+      margin-bottom: 15px;
+    }
+    h3 {
+      margin: 10px 0 3px 0;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .institution-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+    .institution {
+      font-style: italic;
+    }
+    .date {
+      font-style: italic;
+    }
+    p {
+      margin: 0 0 15px 0;
+      text-align: justify;
+    }
+    .skills-container {
+      margin-bottom: 15px;
+    }
+    .skills-category {
+      font-weight: bold;
+      margin-top: 12px;
+      margin-bottom: 2px;
+      font-size: 15px;
+    }
+    .skills-list {
+      margin: 0 0 10px 0;
+    }
+    ul {
+      margin: 5px 0 15px 0;
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 5px;
+      text-align: justify;
+    }
+
+    /* Interactive Elements styling */
+    .no-print-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-bottom: 20px;
+    }
+    .btn-pdf {
+      background-color: #000000;
+      color: #ffffff;
+      border: 1px solid #000000;
+      padding: 8px 16px;
+      font-size: 13px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background 0.2s ease;
+    }
+    .btn-pdf:hover {
+      background-color: #ffffff;
+      color: #000000;
+    }
+
+    @media print {
+      .no-print {
+        display: none !important;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="no-print-container no-print">
+  <button class="btn-pdf" onclick="window.print()">Save as PDF</button>
+</div>
+
+<header>
+  <h1>ALISHBA SAEED</h1>
+  <div class="subtitle">Computer Science Student</div>
+  <div class="contact-info">linkedin.com/in/alishbasaeed, Islamabad, Pakistan</div>
+  <hr class="header-line">
+</header>
+
+<main>
+  <section>
+    <h2>SUMMARY</h2>
+    <hr class="section-line">
+    <p>Third-year Computer Science student with hands-on experience in Python, Java, and SQL, specializing in backend development, database optimization, and cloud infrastructure (AWS RDS/EC2). Proven ability to design full-stack applications, build RESTful APIs, and optimize relational database schemas. Passionate about technology and innovation, with strong collaboration and communication skills developed through leading campus tech workshops as an MLSA Event Coordinator. Eager to apply academic knowledge and programming expertise to real-world challenges.</p>
+  </section>
+
+  <section>
+    <h2>EDUCATION</h2>
+    <hr class="section-line">
+    <article>
+      <h3>Bachelor of Science in Computer Science</h3>
+      <div class="institution-row">
+        <span class="institution">Shaheed Zulfikar Ali Bhutto Institute of Science & Technology (SZABIST)</span>
+        <span class="date">2023-2027</span>
+      </div>
+      <p><strong>Relevant Coursework:</strong> Data Structures & Algorithms, Database Systems, Operating Systems, Web Development, and Software Engineering</p>
+    </article>
+  </section>
+
+  <section>
+    <h2>SKILLS</h2>
+    <hr class="section-line">
+    <div class="skills-container">
+      <div class="skills-category">Languages</div>
+      <div class="skills-list">C++, HTML/CSS, Java, JavaScript, Python, SQL</div>
+
+      <div class="skills-category">Databases & Tools</div>
+      <div class="skills-list">PostgreSQL, MySQL, AWS, RDS, EC2, Apache Tomcat, Springboot, Hibernate, DBeaver, VS Code, Git, GitHub, Linux</div>
+
+      <div class="skills-category">Development</div>
+      <div class="skills-list">Full-Stack Architecture, RESTful APIs, OOP, Java, JavaScript, Python, React, Software Testing & Debugging</div>
+
+      <div class="skills-category">Soft Skills</div>
+      <div class="skills-list">Adaptability & Quick Learning, Communication, Problem-Solving, Teamwork & Collaboration, Time Management</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>PROJECTS</h2>
+    <hr class="section-line">
+
+    <article>
+      <h3>Cloud-Based Expense Tracker</h3>
+      <ul>
+        <li>Built a full-stack financial tracking web application by implementing secure user authentication and dynamic reporting modules using Java, JavaScript, and PostgreSQL, enabling real-time expense categorization and tracking across multiple user accounts.</li>
+        <li>Deployed cloud-hosted database infrastructure on AWS RDS by configuring Apache Tomcat for application deployment and optimizing a PostgreSQL schema via DBeaver, ensuring high data integrity and 99%+ uptime for the production environment</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Disease Detection System</h3>
+      <ul>
+        <li>Developed backend logic for an AI/ML-powered disease detection system by implementing symptom analysis algorithms in Python, enabling automated preliminary diagnostics across 10+ symptom categories</li>
+        <li>Engineered optimized SQL database queries for patient record management using MySQL, reducing data retrieval latency and supporting efficient logging of 1,000+ simulated patient records</li>
+      </ul>
+    </article>
+
+    <article>
+      <h3>Multi-Core Neural Network Simulation</h3>
+      <ul>
+        <li>Built a multi-core neural network simulation by implementing backend multithreading and IPC mechanisms in C++, enabling parallel execution across multiple CPU cores and reducing runtime processing overhead</li>
+        <li>Implemented core computational data structures and backpropagation algorithms for neural network training, supporting multi-layer learning and achieving efficient gradient propagation across the simulation</li>
+      </ul>
+    </article>
+  </section>
+
+  <section>
+    <h2>VOLUNTEER WORK</h2>
+    <hr class="section-line">
+    <article>
+      <h3>Event Coordinator</h3>
+      <div class="institution-row">
+        <span class="institution">Microsoft Learn Student Ambassadors (MLSA)</span>
+      </div>
+      <ul>
+        <li>Led teams to organize campus tech workshops, providing project support, overseeing business operations, collaborating with stakeholders, communicating effectively, and managing time-management for hybrid events.</li>
+      </ul>
+    </article>
+  </section>
+</main>
+
+</body>
+</html>
